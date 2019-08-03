@@ -20,7 +20,8 @@ handy depending on use-cases and data-sizes. For the examples we have a fictiona
 where we want to download and print some URLs and their contents. We'll use 3 threads for downloading
 and 1 thread for printing the result to stdout.
 
-**How it works in a nutshell**
+How it works in a nutshell
+--------------------------
 
     The output of the previous step is the input of the next step.
 
