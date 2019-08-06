@@ -473,8 +473,9 @@ class AbstractIterStep(AbstractStep):
                     continue
 
                 if entry.type == Types.sentry:
-                    raise StopIteration
-                elif entry.type == Types.exception:
+                    return
+
+                if entry.type == Types.exception:
                     logger.debug("Thread %r: passing on exception", self)
                     self._pass_on(entry)
                 elif entry.type == Types.meta:
