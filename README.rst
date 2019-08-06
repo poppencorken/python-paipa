@@ -1,10 +1,10 @@
 paipa - the threaded data pipelining framework
 ==============================================
 
-Python pipeline library developed by `STYLIGHT <http://www.stylight.de/>`_.
+Python pipeline library originally developed by `STYLIGHT <https://www.stylight.de/>`_.
 
-.. image:: https://travis-ci.org/stylight/python-paipa.svg?branch=master
-    :target: https://travis-ci.org/stylight/python-paipa
+.. image:: https://travis-ci.org/smokey42/python-paipa.svg?branch=master
+    :target: https://travis-ci.org/smokey42/python-paipa
 
 
 Installation
